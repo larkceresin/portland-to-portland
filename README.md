@@ -1,4 +1,5 @@
-# Project 3: From Portland to Portland
+# [Project 3: From Portland to Portland and link to the onine version](https://larkceresin.github.io/web_project_3/)
+##Jenna Toff
 
 ### Overview
 * Intro
@@ -6,15 +7,17 @@
 * Images
 
 **Intro**
+This project is working out grid, flex layouts that are adaptive and somewhat responsive as well. 
+This is a project about traveling across the US. (but really only mentions states in the North East)
+This will likely not be finished to include other states one would pass through on this journey, but may!
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+I'm learning and using BEM for structure of this project. 
 
 **Figma**
 
 * [Link to the project on Figma](https://www.figma.com/file/lNsn9aE1Be6bvg9FeAzRXT/Sprint-3-From-Portland-to-Portland-desktop-mobile?node-id=0%3A1)
+This is being used to showcase what I'm looking to make this site appear to look like on multiple screen sizes.
 
 **Images**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Good luck and have fun!
+Exported images directly from Figma, to be as if I'm getting them directly from the designer through there. I had to compress pictures as well so they would take up less space.
