@@ -1,0 +1,9 @@
+.state__url-container{
+    margin: 0;
+    padding-bottom: 24px;
+}
+@media screen and (max-width:600px){
+    .state__url-container{
+     display: none;
+    }
+}

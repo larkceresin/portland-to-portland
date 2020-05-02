@@ -1,0 +1,11 @@
+.route66__subtitle{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    max-width: 320px;
+    margin: auto;
+    margin-top: 32px;
+}
