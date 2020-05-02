@@ -1,0 +1,13 @@
+@import url(__image/header__image.css);
+@import url(__lang-link/header__lang-link.css);
+@import url(__lang-link/_active/header__lang-link_active.css);
+@import url(__links/header__links.css);
+@import url(__logo/header__logo.css);
+@import url(__subline/header__subline.css);
+@import url(__subtitle/header__subtitle.css);
+@import url(__title/header__title.css);
+
+.header{
+    position: relative;
+    
+}

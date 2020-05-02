@@ -1,0 +1,26 @@
+@import url(__image/route66__image.css);
+@import url(__overlay/route66__overlay.css);
+@import url(__subtitle/route66__subtitle.css);
+@import url(__title/route66__title.css);
+.route66{
+    width:100%;
+    max-width: 1184px;
+    max-height: 740px;
+    margin:92px auto;
+    display: flex;
+    position: relative;
+}
+
+
+@media screen and (max-width:768px){
+    .route66{
+        margin: 88px auto;
+        
+    }
+}
+
+@media screen and (max-width:425px){
+    .route66{
+        margin: 64px auto;
+    }
+}

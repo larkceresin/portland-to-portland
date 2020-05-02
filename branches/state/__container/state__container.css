@@ -1,0 +1,30 @@
+.state__container{
+    margin-top: 80px;
+    margin-left: 148px;
+    column-count: 2;
+}
+
+.state__container:first-of-type{
+    margin-top:0;
+}
+
+@media screen and (max-width: 1024px){
+    .state__container{
+        margin-left:48px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .state__container{
+        margin-top: 72px;
+        margin-left: 24px;
+        
+    }
+}
+
+@media screen and (max-width:600px){
+    .state__container{
+        column-count: 1;
+        margin-left: 0;
+    }
+}

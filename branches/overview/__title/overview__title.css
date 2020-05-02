@@ -1,0 +1,24 @@
+.overview__title{
+    margin-top: 92px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+}
+
+
+@media screen and (max-width:768px){
+    .overview__title{
+        margin-top:88px
+        
+    }
+}
+
+@media screen and (max-width:425px){
+    .overview__title{
+        margin-top: 64px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
