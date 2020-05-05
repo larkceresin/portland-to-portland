@@ -1,0 +1,8 @@
+.state__image{
+    width: 100%;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row-span: 2;
+    grid-row: span 2;
+
+}

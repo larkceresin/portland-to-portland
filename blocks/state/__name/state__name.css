@@ -1,0 +1,29 @@
+.state__name{
+    margin: 0;
+    margin-bottom: 48px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+     -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row-align: end;
+    align-self: end;
+}
+@media screen and (max-width:768px){
+    .state__name{
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+@media screen and (max-width:600px){
+    .state__name{
+        margin-left: 16px;
+    }
+}
+@media screen and (max-width:425px){
+    state__name{ 
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

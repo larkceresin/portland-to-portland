@@ -1,0 +1,37 @@
+@import url(__list-item/overview__list-item.css);
+@import url(__list-item/_font-weight/overview__list-item_font-weight_bold.css);
+@import url(__list/overview__list.css);
+@import url(__main-text/overview__main-text.css);
+@import url(__subtitle/overview__subtitle.css);
+@import url(__title/overview__title.css);
+
+.overview{
+    margin-left:148px;
+    max-width: 690px;
+}
+@media screen and (min-width:1280px){
+    .overview{
+        margin-left:25%;
+    }
+}
+@media screen and (max-width: 1024px){
+    .overview{
+        margin-left: 48px;
+        
+    }
+}
+
+@media screen and (max-width:768px){
+    .overview{
+        margin-left: 24px;
+        max-width: 720px;
+        
+    }
+}
+
+@media screen and (max-width:425px){
+    .overview{
+        max-width: 288px;
+        margin-left: 16px;
+    }
+}

@@ -1,0 +1,9 @@
+@import url(__image/main__image.css);
+@import url(__subline/main__subline.css);
+@import url(__subtitle/main__subtitle.css);
+@import url(__title/main__title.css);
+.main{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;}
+    

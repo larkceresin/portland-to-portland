@@ -1,0 +1,41 @@
+.state__paragraph {
+    max-width: 484px;
+    margin: 0;
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-row-align: start;
+    align-self: start;
+}
+.state__paragraph:first-of-type {
+    margin-top: 0;
+}
+@media screen and (max-width: 1024px){
+    .state__paragraph{
+        max-width: 456px;
+        
+    }
+}
+
+@media screen and (max-width:768px) {
+    .state__paragraph{
+        max-width: 352px;
+        
+    }
+}
+
+@media screen and (max-width:600px) {
+    .state__paragraph{
+        margin-left: 16px;
+        margin-right: 16px;
+        -ms-grid-column: 1;
+        grid-column: 1;
+    }
+    .state__paragraph:first-of-type {
+        margin-top: 32px;
+    }
+}

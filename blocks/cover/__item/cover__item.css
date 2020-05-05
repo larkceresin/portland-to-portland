@@ -1,0 +1,59 @@
+.cover__item{
+    background-image: url(../../../images/image__route66.png);
+    min-height: 740px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+-webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+
+    position: relative;
+
+}
+
+.cover__item:before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #2A2C2F;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .3;
+    -webkit-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+.cover__item:hover:before{
+    opacity:.8;
+}
+
+@media screen and (max-width:1024px) {
+    .cover__item{
+        min-height:640px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .cover__item{
+        min-height:480px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .cover__item{
+        min-height:200px;
+    }
+}
