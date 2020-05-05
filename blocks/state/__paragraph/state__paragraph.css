@@ -24,6 +24,8 @@
 @media screen and (max-width:768px) {
     .state__paragraph{
         max-width: 352px;
+        font-size: 16px;
+        line-height: 26px;
         
     }
 }
@@ -34,6 +36,8 @@
         margin-right: 16px;
         -ms-grid-column: 1;
         grid-column: 1;
+        font-size: 16px;
+        line-height: 169.4%;
     }
     .state__paragraph:first-of-type {
         margin-top: 32px;

@@ -22,7 +22,7 @@
     }
 }
 @media screen and (max-width:425px){
-    state__name{ 
+    .state__name{ 
         font-size: 32px;
         line-height: 35px;
     }

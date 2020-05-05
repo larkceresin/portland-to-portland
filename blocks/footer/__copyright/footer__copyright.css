@@ -7,10 +7,15 @@
     margin-top: 2px;
 }
 
+@media screen and (max-width:768px){
+    .footer__copyright{
+        margin-right: 24px;
+    }
+}
 @media screen and (max-width:425px){
     .footer__copyright{
         line-height: 14px;
-        margin-top: 16px;
+        margin-top: 32px;
         margin-left: 16px;
     }
 }

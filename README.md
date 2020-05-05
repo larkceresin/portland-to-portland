@@ -1,4 +1,4 @@
-# [Project 3: From Portland to Portland and link to the online version](https://larkceresin.github.io/web_project_3/)
+# [Project 3: From Portland to Portland and link to the onine version](https://larkceresin.github.io/web_project_3/)
 ##Jenna Toff
 
 ### Overview

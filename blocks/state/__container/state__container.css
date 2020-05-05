@@ -1,6 +1,9 @@
 .state__container{
     margin-top: 80px;
     margin-left: 148px;
+    margin-right: 148px;
+    margin-bottom: 0;
+    max-width: 984px;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 40px 1fr;
@@ -13,9 +16,11 @@
     margin-top:0;
 }
 
+
 @media screen and (max-width: 1024px){
     .state__container{
         margin-left:48px;
+        margin-right: 48px;
         grid-column-gap: 32px; 
     }
 }
@@ -24,6 +29,7 @@
     .state__container{
         margin-top: 72px;
         margin-left: 24px;
+        margin-right: 24px;
         grid-column-gap: 28px; 
     }
 }
@@ -33,5 +39,6 @@
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
         margin-left: auto;
+        margin-right: auto;
     }
 }

@@ -18,7 +18,6 @@
     .footer__link{
         font-size: 24px;
         line-height: 56px;/*24 in the text property, +32 for space between lines*/
-        
         margin-left: 16px;
     }
 }
